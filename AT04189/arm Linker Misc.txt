@@ -1,0 +1,3 @@
+-Wl,--section-start=.text=0x2000
+bootprot 0x02
+eeprom 0x04

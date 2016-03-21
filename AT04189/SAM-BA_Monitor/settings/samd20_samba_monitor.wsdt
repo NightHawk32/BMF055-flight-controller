@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>samd20_samba_monitor/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>130</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1395</ColumnWidth1><ColumnWidth2>372</ColumnWidth2><ColumnWidth3>93</ColumnWidth3></Build>
+      <TerminalIO/>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-5074-6540</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>samd20_samba_monitor</ExpandedNode><ExpandedNode>samd20_samba_monitor/Output</ExpandedNode><ExpandedNode>samd20_samba_monitor/Output/samd20_samba_monitor.out</ExpandedNode><ExpandedNode>samd20_samba_monitor/Output/samd20_samba_monitor.out/Output</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-202-7245</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>132</YPos2><SelStart2>5238</SelStart2><SelEnd2>5238</SelEnd2></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\usart_sam_ba.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>75</YPos2><SelStart2>3410</SelStart2><SelEnd2>3410</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sam_ba_monitor.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>23</YPos2><SelStart2>1881</SelStart2><SelEnd2>1881</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\linker\samd20j18_flash.icf</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>33</YPos2><SelStart2>776</SelStart2><SelEnd2>776</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\conf_bootloader.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>18</YPos2><SelStart2>2029</SelStart2><SelEnd2>2029</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00517238><key>iaridepm.enu1</key></Toolbar-00517238></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>692</Bottom><Right>204</Right><x>-2</x><y>-2</y><xscreen>123</xscreen><yscreen>98</yscreen><sizeHorzCX>60059</sizeHorzCX><sizeHorzCY>100719</sizeHorzCY><sizeVertCX>100586</sizeVertCX><sizeVertCY>713258</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>236</Bottom><Right>2050</Right><x>-2</x><y>-2</y><xscreen>2052</xscreen><yscreen>238</yscreen><sizeHorzCX>1001953</sizeHorzCX><sizeHorzCY>244604</sizeHorzCY><sizeVertCX>60059</sizeVertCX><sizeVertCY>100719</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

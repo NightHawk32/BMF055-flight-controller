@@ -1,0 +1,13 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armproc.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armjlink2.dll" 
+
+"\\VBOXSVR\Musik\AT04189\SAM-BA_Monitor\Debug\Exe\samd20_samba_monitor.out" 
+
+--plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\Atmel\SAMD20.dmac" 
+
+
+
+
