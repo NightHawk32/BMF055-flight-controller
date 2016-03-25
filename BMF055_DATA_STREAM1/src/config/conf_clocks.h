@@ -90,7 +90,7 @@
 
 /* SYSTEM_CLOCK_SOURCE_DFLL configuration - Digital Frequency Locked Loop */
 #  define CONF_CLOCK_DFLL_ENABLE                  true
-#  define CONF_CLOCK_DFLL_LOOP_MODE               SYSTEM_CLOCK_DFLL_LOOP_MODE_CLOSED
+#  define CONF_CLOCK_DFLL_LOOP_MODE               SYSTEM_CLOCK_DFLL_LOOP_MODE_OPEN
 #  define CONF_CLOCK_DFLL_ON_DEMAND               false
 
 /* DFLL open loop mode configuration */
@@ -103,8 +103,8 @@
 #  define CONF_CLOCK_DFLL_TRACK_AFTER_FINE_LOCK   true
 #  define CONF_CLOCK_DFLL_KEEP_LOCK_ON_WAKEUP     true
 #  define CONF_CLOCK_DFLL_ENABLE_CHILL_CYCLE      true
-#  define CONF_CLOCK_DFLL_MAX_COARSE_STEP_SIZE    (0x1f / 8)
-#  define CONF_CLOCK_DFLL_MAX_FINE_STEP_SIZE      (0xff / 8)
+#  define CONF_CLOCK_DFLL_MAX_COARSE_STEP_SIZE    (0x1f / 16)
+#  define CONF_CLOCK_DFLL_MAX_FINE_STEP_SIZE      (0xff / 16)
 
 
 /* Set this to true to configure the GCLK when running clocks_init. If set to
