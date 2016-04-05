@@ -118,7 +118,8 @@ void Gyro_init() {
     i2c_writeReg(MPU6050_ADDRESS, 0x37, 0x02);           //INT_PIN_CFG   -- INT_LEVEL=0 ; INT_OPEN=0 ; LATCH_INT_EN=0 ; INT_RD_CLEAR=0 ; FSYNC_INT_LEVEL=0 ; FSYNC_INT_EN=0 ; I2C_BYPASS_EN=1 ; CLKOUT_EN=0
   #endif*/
   bmg160_set_range_reg(0x00);
-  bmg160_set_bw(0x03);
+  bmg160_set_bw(0x03);			//47Hz
+  bmg160_set_data_enable(1);	//new Data interrupt
   //bmg160_set_power_mode(0);  
 }
 
