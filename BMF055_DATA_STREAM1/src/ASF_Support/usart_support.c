@@ -179,23 +179,6 @@ void usart_configure_callbacks(void)
 void usart_callback_receive(struct usart_module *const usart_module_ptr)
 {
 	store_uart_in_buf(usart_rx_byte);
-	/*usart_rx_string[usart_rx_count] = usart_rx_byte;
-	
-	if (usart_rx_string[usart_rx_count] == '\n')
-	{
-		// Indicate end of string 
-		usart_rx_string[usart_rx_count + 1] = '\0';
-		// New string received
-		usart_callback_receive_flag = true;
-		// Reset the counter
-		usart_rx_count = 0;
-	}
-	else
-	{
-		usart_rx_count++;
-	}*/
-	
-	/* Initiate a new job to listen to USART port for a new byte */
 	usart_read_job(&usart_instance, &usart_rx_byte);
 }
 
