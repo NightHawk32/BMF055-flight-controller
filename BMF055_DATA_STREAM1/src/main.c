@@ -233,7 +233,7 @@ int main(void)
 	system_init();
 	
 	/*Initialize clock module of SAMD20 MCU - Internal RC clock*/
-	//clock_initialize();
+	//clock_initialize(); // done via conf_clocks.h --> ASF
 	
 	/*SPI master for communicating with sensors*/
 	spi_initialize();
@@ -304,10 +304,7 @@ int main(void)
 	/************************** Infinite Loop *******************************/
 	while (true)
 	{
-		/*bmf055_sensors_data_print();
-		for(int i=0;i<1000000;i++){
-			asm("nop");
-		}*/
+
 		
 		static uint8_t rcDelayCommand; // this indicates the number of time (multiple of RC measurement at 50Hz) the sticks must be maintained to run or switch off motors
   static uint8_t beepon = 0;
@@ -574,31 +571,6 @@ int main(void)
     writeMotors();
   }
 
-  
-		
-		//serialCom();
-		//writeMotors();
-		//computeRC();
-		//for(int i=0; i<1000;i++){
-		//	asm("nop");
-		//}
-		/* Process USART inputs */
-		/*if (USART_COMMAND_PROCESS_FLAG)
-		{
-			bmf055_usart_read_process(usart_rx_string[0]);
-			
-			// Reset USART Flag 
-			USART_COMMAND_PROCESS_FLAG = false;
-		}*/
-		
-		/* Print sensor data periodically regarding TC6 interrupt flag (Default Period 100 ms)*/
-		/*if (READ_SENSORS_FLAG)
-		{
-			bmf055_sensors_data_print();
-			
-			
-			READ_SENSORS_FLAG = false;
-		}*/
 		
 	} /* !while (true) */
 		

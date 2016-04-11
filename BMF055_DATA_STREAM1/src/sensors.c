@@ -107,20 +107,9 @@ void ACC_Common() {
 // ************************************************************************************************************
 
 void Gyro_init() {
-  /*TWBR = ((F_CPU / 400000L) - 16) / 2; // change the I2C clock rate to 400kHz
-  i2c_writeReg(MPU6050_ADDRESS, 0x6B, 0x80);             //PWR_MGMT_1    -- DEVICE_RESET 1
-  delay(5);
-  i2c_writeReg(MPU6050_ADDRESS, 0x6B, 0x03);             //PWR_MGMT_1    -- SLEEP 0; CYCLE 0; TEMP_DIS 0; CLKSEL 3 (PLL with Z Gyro reference)
-  i2c_writeReg(MPU6050_ADDRESS, 0x1A, conf.MPU6050_DLPF_CFG); //CONFIG        -- EXT_SYNC_SET 0 (disable input pin for data sync) ; default DLPF_CFG = 0 => ACC bandwidth = 260Hz  GYRO bandwidth = 256Hz)
-  i2c_writeReg(MPU6050_ADDRESS, 0x1B, 0x18);             //GYRO_CONFIG   -- FS_SEL = 3: Full scale set to 2000 deg/sec
-  // enable I2C bypass for AUX I2C
-  #if defined(MAG)
-    i2c_writeReg(MPU6050_ADDRESS, 0x37, 0x02);           //INT_PIN_CFG   -- INT_LEVEL=0 ; INT_OPEN=0 ; LATCH_INT_EN=0 ; INT_RD_CLEAR=0 ; FSYNC_INT_LEVEL=0 ; FSYNC_INT_EN=0 ; I2C_BYPASS_EN=1 ; CLKOUT_EN=0
-  #endif*/
   bmg160_set_range_reg(0x00);
   bmg160_set_bw(0x03);			//47Hz
   bmg160_set_data_enable(1);	//new Data interrupt
-  //bmg160_set_power_mode(0);  
 }
 
 void Gyro_getADC () {
@@ -152,10 +141,6 @@ void ACC_getADC () {
 }
 
   
-
-
-
-
 void initSensors() {
   if (GYRO) Gyro_init();
   if (ACC) {ACC_init();acc_25deg = acc_1G * 0.423;}
