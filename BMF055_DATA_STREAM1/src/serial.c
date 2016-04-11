@@ -439,7 +439,6 @@ void UartSendData() {
 	while(headTX != tailTX) {
 		if (++tailTX >= TX_BUFFER_SIZE) tailTX = 0;
 		uint8_t* p = bufTX+tailTX;
-		//USB_Send(USB_CDC_TX,p,1);
 		usart_write_buffer_wait(&usart_instance, p,1);
 	}
 }
