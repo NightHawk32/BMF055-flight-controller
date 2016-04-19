@@ -13,7 +13,7 @@
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
     <AssemblyName>BMF055_DATA_STREAM1</AssemblyName>
-    <Name>BMF055_DATA_STREAM1</Name>
+    <Name>BMF055_flight_controller</Name>
     <RootNamespace>BMF055_DATA_STREAM1</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
