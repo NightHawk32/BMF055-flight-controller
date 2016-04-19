@@ -1,10 +1,3 @@
-/*
- * sensors.c
- *
- * Created: 06.03.2016 19:21:35
- *  Author: Lukas
- */ 
-
 #include "sensors.h"
 #include "globals.h"
 #include "eeprom_emulation.h"

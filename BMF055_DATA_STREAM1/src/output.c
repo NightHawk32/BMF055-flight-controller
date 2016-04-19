@@ -1,10 +1,3 @@
-/*
- * output.c
- *
- * Created: 06.03.2016 19:23:02
- *  Author: Lukas
- */ 
-
 #include <tc.h>
 #include <tc_interrupt.h>
 #include "eeprom_emulation.h"

@@ -1,20 +1,3 @@
-/*
- * eeprom.h
- *
- * Created: 06.03.2016 10:36:12
- *  Author: Lukas
- */ 
-
-/*
- * globals.h
- *
- * Created: 05.03.2016 18:35:52
- *  Author: Lukas
- */ 
-
-
-
-
 #ifndef EEPROM_EMULATION_H_
 #define EEPROM_EMULATION_H_
 

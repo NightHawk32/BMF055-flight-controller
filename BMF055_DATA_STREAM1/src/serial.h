@@ -1,12 +1,3 @@
-/*
- * serial.h
- *
- * Created: 05.03.2016 20:35:13
- *  Author: Lukas
- */ 
-
-
-
 #ifndef SERIAL_H_
 #define SERIAL_H_
 

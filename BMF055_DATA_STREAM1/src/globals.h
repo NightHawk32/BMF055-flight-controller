@@ -1,13 +1,3 @@
-/*
- * globals.h
- *
- * Created: 05.03.2016 18:35:52
- *  Author: Lukas
- */ 
-
-
-
-
 #ifndef GLOBALS_H_
 #define GLOBALS_H_
 
@@ -204,30 +194,6 @@ extern int16_t  Zadd;
 extern volatile uint8_t rcFrameComplete; // for serial rc receiver Spektrum
 extern uint8_t  failsave;
 extern uint16_t cycleTime; 
-/*uint32_t currentTime = 0;
-uint16_t previousTime = 0;
-uint16_t cycleTime = 0;     
-uint16_t calibratingA = 0; 
-uint16_t calibratingG;
-uint16_t acc_1G;            
-int16_t  acc_25deg;
-int16_t  headFreeModeHold;
-int16_t  heading,magHold;
-uint8_t  vbat;               
-uint8_t  rcOptions[CHECKBOXITEMS];
-           
-int16_t  BaroPID = 0;
-int32_t  AltHold;
-
-int16_t  errorAltitudeI = 0;
-int16_t  accZCal = 0;
-int16_t  Zadd    = 0;
-int8_t   SetupMode    = 0;
-int8_t   good_calib = 0;
-uint8_t  failsave = 0;
-
-int16_t  i2c_errors_count = 0;
-int16_t  annex650_overrun_count = 0;*/
 
 extern int16_t rcData[8];        
 extern int16_t rcCommand[4];     

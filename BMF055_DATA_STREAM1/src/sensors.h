@@ -1,10 +1,3 @@
-/*
- * sensors.h
- *
- * Created: 06.03.2016 19:21:54
- *  Author: Lukas
- */ 
-
 #ifndef SENSORS_H_
 #define SENSORS_H_
 

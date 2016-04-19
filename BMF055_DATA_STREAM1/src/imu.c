@@ -1,10 +1,3 @@
-/*
- * imu.c
- *
- * Created: 06.03.2016 19:23:29
- *  Author: Lukas
- */ 
-
 #include "sensors.h"
 #include "imu.h"
 #include "globals.h"

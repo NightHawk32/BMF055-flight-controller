@@ -1,10 +1,3 @@
-/*
- * serial.c
- *
- * Created: 05.03.2016 20:34:54
- *  Author: Lukas
- */ 
-
 #include "serial.h"
 #include "globals.h"
 #include "eeprom_emulation.h"

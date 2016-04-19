@@ -1,10 +1,3 @@
-/*
- * imu.h
- *
- * Created: 06.03.2016 19:23:41
- *  Author: Lukas
- */ 
-
 #ifndef IMU_H_
 #define IMU_H_
 

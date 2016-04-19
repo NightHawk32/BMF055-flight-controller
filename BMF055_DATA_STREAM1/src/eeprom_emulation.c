@@ -1,10 +1,3 @@
-/*
- * eeprom.c
- *
- * Created: 06.03.2016 10:35:57
- *  Author: Lukas
- */ 
-
 #include "eeprom_emulation.h"
 #include "globals.h"
 
