@@ -1,10 +1,3 @@
-/*
- * eeprom_emulator_support.h
- *
- * Created: 05.03.2016 14:08:58
- *  Author: Lukas
- */ 
-
 #ifndef EEPROM_EMULATOR_SUPPORT_H_
 #define EEPROM_EMULATOR_SUPPORT_H_
 
