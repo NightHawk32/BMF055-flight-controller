@@ -1,10 +1,10 @@
 # BMF055-flight-controller
 
-I wanted to tank Bosch Sensortec for supporting this project with hardware and knowledge.
+I wanted to thank Bosch Sensortec for supporting this project with hardware and knowledge.
 The idea about this project is to build a flight controller based on a single chip: the BMF055. This system-in-package contains all necessary components: a 3 axis gyroscope, 3 axis accelerometer and a 3 axis magnetometer. These are connected to an Atmel SAMD20 Cortex M0+ micro controller.
 This software gives the BMF055 the ability to control a quadrocopter by just adding a receiver and 4 external motors and speed controllers.
 
-Addiotional information regarding development state, features and hardware setup will be added to the wiki of this repository.
+Additional information regarding development state, features and hardware setup will be added to the wiki of this repository.
 
 ##Idea:
 The idea was to set up a flight controller with just a single chip, but the problem was which software it should be based on. Cleanflight is made for the STMFXXX series and lacks some hardware abstraction. It has really gerat features, so the first idea was to either add support for the BMF055 or to port it. But it would have been a lot of work the get it even running. So I chose to take a really simple core and to replace the parts regarding the hardware. Nanowii mw21 came to my mind, because it still has great performance on the 8 bit controllers, flies great and is just simple. So this was the ideal plattform to experiment with the BMF055 and to get to know it.
