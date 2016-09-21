@@ -29,3 +29,5 @@ The core and idea for this firmware is based on the "old" MW architecture which 
 
 ### Multiwii 2.1 nanowii adaptions by FelixNiessen/[flyduino](http://flyduino.net/)
 This MW version is a special adaption by Felix, it contains only necessary parts and is focussed on stunt flying. It also involves new features like the oneshot protocoll for higher ESC refresh rates.
+
+[![ghit.me](https://ghit.me/badge.svg?repo=NightHawk32/BMF055-flight-controller)](https://ghit.me/repo/NightHawk32/BMF055-flight-controller)
